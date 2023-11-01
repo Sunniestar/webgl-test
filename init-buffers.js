@@ -5,7 +5,6 @@ function initBuffers(gl) {
     position: positionBuffer,
   };
 }
-}
 function initPositionBuffer(gl) {
   // Create a buffer for the square's positions.
   const positionBuffer = gl.createBuffer();
