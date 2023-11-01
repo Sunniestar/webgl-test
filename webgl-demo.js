@@ -2,7 +2,7 @@ import { initBuffers } from "./init-buffers.js";
 import { drawScene } from "./draw-scene.js";
 main()
 function main(){
-const canva = document.querySelector("#A");
+const canvas = document.querySelector("#A");
   // Initialize the GL context
   const gl = canvas.getContext("webgl");
 const vsSource = `
