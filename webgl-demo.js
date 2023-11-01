@@ -2,7 +2,9 @@ import { initBuffers } from "./init-buffers.js";
 import { drawScene } from "./draw-scene.js";
 main()
 function main(){
-var gl=document.getElementById('A').getContext('webgl')
+const canvas = document.querySelector("#glcanvas");
+  // Initialize the GL context
+  const gl = canvas.getContext("webgl");
 const vsSource = `
     attribute vec4 aVertexPosition;
     uniform mat4 uModelViewMatrix;
